@@ -1,0 +1,15 @@
+POST  http://localhost:5055/breakfasts
+Content-Type: application/json
+
+{
+    "name" : "Akash",
+    "description": "Test",
+    "startDateTime": "2022-04-08T05:00",
+    "endDateTime": "2022-04-08T06:00",
+    "savory": [
+        "Oatmeal"
+    ],
+    "sweet": [
+        "Cookie"
+    ]
+}

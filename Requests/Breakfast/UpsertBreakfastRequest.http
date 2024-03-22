@@ -1,0 +1,17 @@
+@id=ec14ef65-8f07-4690-8167-11a9d11d8d11
+
+PUT  http://localhost:5055/breakfasts/{{id}}
+Content-Type: application/json
+
+{
+    "name" : "Ak",
+    "description": "Test",
+    "startDateTime": "2022-04-08T05:00",
+    "endDateTime": "2022-04-08T06:00",
+    "savory": [
+        "Oatmeal"
+    ],
+    "sweet": [
+        "Cookiee"
+    ]
+}
